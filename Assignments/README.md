@@ -173,11 +173,190 @@ vc_putnbr.c
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
 
 
+# Assignment 2
+
+
+### Exercise 00: vc_pt
+
+Create a function that takes a pointer to int as a parameter, and sets the value "77" to that 
+int
+.
+
+#### Allowed functions
+
+```
+none
+```
+
+#### Related files
+
+```
+vc_pt.c
+```
+<br>
+
+### Exercise 01: vc_pt
+
+Create a function that takes a pointer to pointer to pointer to pointer to pointer to pointer to pointer to pointer to pointer to int as a parameter and sets the value "77" to that int.
+#### Allowed functions
+
+```
+none
+```
+
+#### Related files
+
+```
+vc_ultimate_pt.c
+```
+<br>
+
+### Exercise 02: vc_swap
+
+Create a function that swaps the value of two integers whose addresses are entered as parameters.
+#### Allowed functions
+
+```
+none
+```
+
+#### Related files
+
+```
+vc_swap.c
+```
+<br>
+
+### Exercise 03: vc_div_mod
+
+Create a function that divides parameters 
+a by b and stores the result in the int pointed by div . It also
+stores the remainder of the division of a by b in the int pointed by mod.
+#### Allowed functions
+
+```
+none
+```
+
+#### Related files
+
+```
+vc_div_mod.c
+```
+<br>
+
+### Exercise 04: vc_ultimate_div_mod
+
+Create a function that divides parameters a by b. The result of this division is stored in the int pointed by a. The remainder of the division is stored in the int pointed by b.
+#### Allowed functions
+
+```
+none
+```
+
+#### Related files
+
+```
+vc_ultimate_div_mod.c
+```
+<br>
+
+### Exercise 05: vc_putstr
+
+Create a function that displays a string of characters on the standard output
+#### Allowed functions
+
+```
+putchar
+```
+
+#### Related files
+
+```
+vc_putstr.c
+```
+<br>
+
+### Exercise 06: vc_strlen
+
+Create a function that counts and returns the number of characters in a string.
+#### Allowed functions
+
+```
+none
+```
+
+#### Related files
+
+```
+vc_strlen.c
+```
+<br>
+
+### Exercise 07: vc_strrev
+
+Create a function that reverses the order of characters in a string.
+
+It has to return str
+
+```
+a => a
+ab => ba
+abcde => edcba
+```
+#### Allowed functions
+
+```
+none
+```
+
+#### Related files
+
+```
+vc_strrev.c
+```
+<br>
+
+### Exercise 08: vc_atoi
+
+Reproduce the behavior of the function 
+atoi.
+
+#### Allowed functions
+
+```
+none
+```
+
+#### Related files
+
+```
+vc_atoi.c
+```
+<br>
+
+### Exercise 09: vc_sort_int_table
+
+Create a function which sorts an array(table) of integers by ascending order.
+
+The arguments are a pointer to int and the number of ints in the array
+#### Allowed functions
+
+```
+none
+```
+
+#### Related files
+
+```
+vc_sort_int_table.c
+```
+<br>
+<br>
+<br>
+<br>
 
 ## Developed with
 
