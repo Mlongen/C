@@ -1,19 +1,25 @@
 /* ************************************ */
 /*                                      */
-/* vc_print_numbers.c                   */
+/* vc_sqrt.c                            */
 /*                                      */
 /* By: Marcelo Longen                   */
 /*                                      */
 /* ************************************ */
 #include <stdio.h>
 
-void vc_print_numbers(void)
+int vc_sqrt(int n)
 {
-    char ch;
-
-    for (ch = '0'; ch <= '9'; ch++)
+    int result = 1;
+    while (result <= n)
     {
-        putchar(ch);
+        if (result * result < n)
+        {
+            result++;
+        }
+        else if (result * result == n)
+        {
+            return result;
+        }
     }
-    putchar('\n');
+    return 0;
 }

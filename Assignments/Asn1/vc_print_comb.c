@@ -1,3 +1,10 @@
+/* ************************************ */
+/*                                      */
+/* vc_print_comb.c                      */
+/*                                      */
+/* By: Marcelo Longen                   */
+/*                                      */
+/* ************************************ */
 #include <stdio.h>
 
 void vc_print_comb(void)

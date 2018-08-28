@@ -1,3 +1,10 @@
+/* ************************************ */
+/*                                      */
+/* vc_print_combn.c                     */
+/*                                      */
+/* By: Marcelo Longen                   */
+/*                                      */
+/* ************************************ */
 #include <stdio.h>
 
 void vc_helper(int *arr, int col, int n)

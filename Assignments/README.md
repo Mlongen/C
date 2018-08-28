@@ -2,7 +2,7 @@
 
 This repository contains assignments done by me during my C course (4 weeks).
 
-# Assignment 1
+## Assignment 1
 
 
 ### Exercise 00: vc_print_alphabet
@@ -175,7 +175,7 @@ vc_putnbr.c
 <br>
 
 
-# Assignment 2
+## Assignment 2
 
 
 ### Exercise 00: vc_pt
@@ -352,6 +352,142 @@ none
 
 ```
 vc_sort_int_table.c
+```
+<br>
+
+## Assignment 3
+
+
+### Exercise 00: vc_iterative_factorial
+
+Create an iterated function that returns a number. This number is the result of a factorial operation based
+on the number given as a parameter.
+
+#### Allowed functions
+
+```
+none
+```
+
+#### Related files
+
+```
+vc_iterative_factorial.c
+```
+<br>
+### Exercise 01: vc_recursive_factorial
+
+Create an recursive function that returns the factorial of th number given as a parameter
+
+#### Allowed functions
+
+```
+none
+```
+
+#### Related files
+
+```
+vc_recursive_factorial.c
+```
+<br>
+### Exercise 02: vc_iterative_power
+
+Create an iterated function that returns the value of a power applied to a number. An power lower than 0
+returns 0. Overflows don’t have to be handled.
+
+#### Allowed functions
+
+```
+none
+```
+
+#### Related files
+
+```
+vc_iterative_power.c
+```
+<br>
+### Exercise 03: vc_recursive_power
+
+Create a recursive function that returns the value of a power applied to a number
+
+#### Allowed functions
+
+```
+none
+```
+
+#### Related files
+
+```
+vc_recursive_power.c
+```
+<br>
+### Exercise 04: vc_fibonacci
+
+Create a function ft_fibonacci that returns the n-th element of the Fibonacci sequence, the first element
+being at the 0 index. We’ll consider that the Fibonacci sequence starts like this: 0, 1, 1, 2.
+
+#### Allowed functions
+
+```
+none
+```
+
+#### Related files
+
+```
+vc_fibonacci.c
+```
+<br>
+### Exercise 05: vc_sqrt
+
+Create a function that returns the square root of a number (if it exists), or 0 if the square root is an irrational
+number.
+
+#### Allowed functions
+
+```
+none
+```
+
+#### Related files
+
+```
+vc_sqrt.c
+```
+<br>
+### Exercise 06: vc_is_prime
+
+Create a function that returns 1 if the number given as a parameter is a prime number, and 0 if it isn’t
+
+#### Allowed functions
+
+```
+none
+```
+
+#### Related files
+
+```
+vc_is_prime.c
+```
+<br>
+### Exercise 06: vc_find_next_prime
+
+Create a function that returns the next prime number greater or equal to the number given as argument.
+
+#### Allowed functions
+
+```
+none
+```
+
+#### Related files
+
+```
+vc_find_next_prime.c
 ```
 <br>
 <br>

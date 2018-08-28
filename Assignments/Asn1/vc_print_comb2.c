@@ -1,3 +1,10 @@
+/* ************************************ */
+/*                                      */
+/* vc_print_comb2.c                     */
+/*                                      */
+/* By: Marcelo Longen                   */
+/*                                      */
+/* ************************************ */
 #include <stdio.h>
 
 void placeN(int counter)

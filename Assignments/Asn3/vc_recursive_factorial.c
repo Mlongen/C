@@ -1,19 +1,19 @@
 /* ************************************ */
 /*                                      */
-/* vc_print_numbers.c                   */
+/* vc_recursive_factorial.c             */
 /*                                      */
 /* By: Marcelo Longen                   */
 /*                                      */
 /* ************************************ */
+
 #include <stdio.h>
 
-void vc_print_numbers(void)
+int vc_recursive_factorial(int n)
 {
-    char ch;
+    if (n == 0)
+        return 1;
+    if (n > 0)
+        return n * vc_recursive_factorial(n - 1);
 
-    for (ch = '0'; ch <= '9'; ch++)
-    {
-        putchar(ch);
-    }
-    putchar('\n');
+    return 0;
 }

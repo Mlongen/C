@@ -1,19 +1,27 @@
 /* ************************************ */
 /*                                      */
-/* vc_print_numbers.c                   */
+/* vc_is_prime.c                        */
 /*                                      */
 /* By: Marcelo Longen                   */
 /*                                      */
 /* ************************************ */
 #include <stdio.h>
 
-void vc_print_numbers(void)
+int vc_is_prime(int n)
 {
-    char ch;
-
-    for (ch = '0'; ch <= '9'; ch++)
+    int result = 0;
+    int count = 1;
+    while (count <= n)
     {
-        putchar(ch);
+        if (n % count == 0)
+        {
+            result++;
+        }
+        count++;
     }
-    putchar('\n');
+    if (result == 2)
+    {
+        return 1;
+    }
+    return 0;
 }

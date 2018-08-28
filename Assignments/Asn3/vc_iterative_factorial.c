@@ -1,19 +1,24 @@
 /* ************************************ */
 /*                                      */
-/* vc_print_numbers.c                   */
+/* vc_iterative_factorial.c             */
 /*                                      */
 /* By: Marcelo Longen                   */
 /*                                      */
 /* ************************************ */
+
 #include <stdio.h>
-
-void vc_print_numbers(void)
+int vc_iterative_factorial(int n)
 {
-    char ch;
-
-    for (ch = '0'; ch <= '9'; ch++)
+    int sum = 1;
+    if (n <= 0)
     {
-        putchar(ch);
+        return 0;
     }
-    putchar('\n');
+    while (n > 0)
+    {
+        sum *= n;
+        n--;
+    }
+
+    return sum;
 }

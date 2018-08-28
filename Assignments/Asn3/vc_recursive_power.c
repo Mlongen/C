@@ -1,19 +1,26 @@
+
 /* ************************************ */
 /*                                      */
-/* vc_print_numbers.c                   */
+/* vc_recursive_power.c                 */
 /*                                      */
 /* By: Marcelo Longen                   */
 /*                                      */
 /* ************************************ */
+
 #include <stdio.h>
-
-void vc_print_numbers(void)
+    int
+    vc_recursive_power(int n, int power)
 {
-    char ch;
-
-    for (ch = '0'; ch <= '9'; ch++)
+    if (n <= 0)
     {
-        putchar(ch);
+        return 0;
     }
-    putchar('\n');
+    if (power > 0)
+    {
+        return (n * vc_recursive_power(n, power - 1));
+    }
+    else
+    {
+        return 1;
+    }
 }

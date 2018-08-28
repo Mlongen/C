@@ -1,5 +1,11 @@
 /* This code doesn't work with n < 0, It'll be fixed */
-
+/* ************************************ */
+/*                                      */
+/* vc_atoi.c                            */
+/*                                      */
+/* By: Marcelo Longen                   */
+/*                                      */
+/* ************************************ */
 #include <stdio.h>
 
 int my_pow(int a, int b)

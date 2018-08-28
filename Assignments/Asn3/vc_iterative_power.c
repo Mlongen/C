@@ -1,19 +1,25 @@
 /* ************************************ */
 /*                                      */
-/* vc_print_numbers.c                   */
+/* vc_iterative_power.c                 */
 /*                                      */
 /* By: Marcelo Longen                   */
 /*                                      */
 /* ************************************ */
+
 #include <stdio.h>
-
-void vc_print_numbers(void)
+int iterative_power(int n, int power)
 {
-    char ch;
-
-    for (ch = '0'; ch <= '9'; ch++)
+    if (n > 0)
     {
-        putchar(ch);
+        int x = 1, i;
+        for (i = power; i > 0; i--)
+        {
+            x *= n;
+        }
+        return x;
     }
-    putchar('\n');
+    else
+    {
+        return 0;
+    }
 }

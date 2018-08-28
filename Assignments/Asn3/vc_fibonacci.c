@@ -1,19 +1,20 @@
 /* ************************************ */
 /*                                      */
-/* vc_print_numbers.c                   */
+/* vc_fibonacci.c                       */
 /*                                      */
 /* By: Marcelo Longen                   */
 /*                                      */
 /* ************************************ */
 #include <stdio.h>
 
-void vc_print_numbers(void)
+int vc_fibonacci(int n)
 {
-    char ch;
-
-    for (ch = '0'; ch <= '9'; ch++)
+    if (n < 0)
+        return -1;
+    else if (n < 2)
+        return n;
+    else
     {
-        putchar(ch);
+        return vc_fibonacci(n - 1) + vc_fibonacci(n - 2);
     }
-    putchar('\n');
 }

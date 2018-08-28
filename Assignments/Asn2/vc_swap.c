@@ -2,7 +2,7 @@
 /*                                      */
 /* vc_swap.c                            */
 /*                                      */
-/* By: Emre, Marcelo, Marla             */
+/* By: Marcelo Longen                   */
 /*                                      */
 /* ************************************ */
 #include <stdio.h>
