@@ -490,6 +490,138 @@ none
 vc_find_next_prime.c
 ```
 <br>
+
+## Assignment 4
+
+
+### Exercise 00: vc_strcpy
+
+Reproduce the behavior of the function strcpy.
+
+#### Allowed functions
+
+```
+none
+```
+
+#### Related files
+
+```
+vc_strcpy.c
+```
+<br>
+### Exercise 01: vc_strncpy
+
+Reproduce the behavior of the function strncpy.
+
+#### Allowed functions
+
+```
+none
+```
+
+#### Related files
+
+```
+vc_strncpy.c
+```
+<br>
+### Exercise 02: vc_strstr
+
+Reproduce the behavior of the function strstr.
+
+#### Allowed functions
+
+```
+none
+```
+
+#### Related files
+
+```
+vc_strstr.c
+```
+<br>
+### Exercise 03: vc_strcmp
+
+Reproduce the behavior of the function strcmp.
+
+#### Allowed functions
+
+```
+none
+```
+
+#### Related files
+
+```
+vc_strcmp.c
+```
+<br>
+### Exercise 04: vc_strncmp
+
+Reproduce the behavior of the function strncmp.
+
+#### Allowed functions
+
+```
+none
+```
+
+#### Related files
+
+```
+vc_strncmp.c
+```
+<br>
+### Exercise 05: vc_strupcase
+
+Create a function that transforms every letter of every word to uppercase.
+
+#### Allowed functions
+
+```
+none
+```
+
+#### Related files
+
+```
+vc_strupcase.c
+```
+<br>
+### Exercise 06: vc_strlowcase
+
+Create a function that transforms every letter of every word to lowercase.
+
+#### Allowed functions
+
+```
+none
+```
+
+#### Related files
+
+```
+vc_strlowcase.c
+```
+<br>
+### Exercise 07: vc_strcapitalize
+
+Create a function that capitalizes the first letter of each word and transforms all other letters to lowercase.
+
+#### Allowed functions
+
+```
+none
+```
+
+#### Related files
+
+```
+vc_strcapitalize.c
+```
+<br>
 <br>
 <br>
 <br>
