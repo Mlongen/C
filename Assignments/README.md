@@ -622,6 +622,199 @@ none
 vc_strcapitalize.c
 ```
 <br>
+## Assignment 5
+
+
+### Exercise 00: vc_str_is_alpha
+
+Create a function that returns 1 if the string given as a parameter contains only alphabetical characters, and 0 if it contains any other character. It should return 1 if str is empty.
+
+#### Allowed functions
+
+```
+none
+```
+
+#### Related files
+
+```
+vc_str_is_alpha.c
+```
+<br>
+### Exercise 01: vc_str_is_numeric
+
+Create a function that returns 1 if the string given as a parameter contains only digits, and 0 if it contains any other character. It should return 1 if str is empty.
+
+#### Allowed functions
+
+```
+none
+```
+
+#### Related files
+
+```
+vc_str_is_numeric.c
+```
+<br>
+### Exercise 02: vc_str_is_lowercase
+
+Create a function that returns 1 if the string given as a parameter contains only lowercase alphabetical characters, and 0 if it contains any other character. It should return 1 if str is empty.
+
+#### Allowed functions
+
+```
+none
+```
+
+#### Related files
+
+```
+vc_str_is_lowercase.c
+```
+<br>
+### Exercise 03: vc_str_is_uppercase
+
+Create a function that returns 1 if the string given as a parameter contains only uppercase alphabetical characters, and 0 if it contains any other character. It should return 1 if str is empty.
+
+#### Allowed functions
+
+```
+none
+```
+
+#### Related files
+
+```
+vc_str_is_uppercase.c
+```
+<br>
+### Exercise 04: vc_str_is_printable
+
+Create a function that returns 1 if the string given as a parameter contains only printable characters, and 0 if it contains any other character. It should return 1 if str is empty.
+
+#### Allowed functions
+
+```
+none
+```
+
+#### Related files
+
+```
+vc_str_is_printable.c
+```
+<br>
+### Exercise 05: vc_strcat
+
+Reproduce the behavior of the function strcat.
+
+#### Allowed functions
+
+```
+none
+```
+
+#### Related files
+
+```
+vc_strcat.c
+```
+<br>
+### Exercise 06: vc_strncat
+
+Reproduce the behavior of the function strncat.
+
+#### Allowed functions
+
+```
+none
+```
+
+#### Related files
+
+```
+vc_strncat.c
+```
+<br>
+### Exercise 07: vc_strlcat
+
+Reproduce the behavior of the function strlcat.
+
+#### Allowed functions
+
+```
+none
+```
+
+#### Related files
+
+```
+vc_strlcat.c
+```
+<br>
+### Exercise 08: vc_strlcpy
+
+Reproduce the behavior of the function strlcpy.
+
+#### Allowed functions
+
+```
+none
+```
+
+#### Related files
+
+```
+vc_strlcpy.c
+```
+<br>
+### Exercise 09: vc_putstr_non_printable
+
+Create a function that displays a string of characters onscreen. If this string contains characters that aren’t printable, they’ll have to be displayed in the shape of hexadecimals (lowercase), preceeded by a "backslash".
+
+#### Allowed functions
+
+```
+putchar
+```
+
+#### Related files
+
+```
+vc_putstr_non_printable.c
+```
+<br>
+### Exercise 10: vc_print_memory
+
+Create a function that displays a string's content in hexadecimal, and then in printable characters. Example:
+
+##### Test string (char *)
+```
+"Salut les aninches c'est cool show non on fait de truc
+terrible\x00\x2e\x00\x01\x02\x03\x04\x05\x06\x07\x08\x09\x0e\x0f\x1b\x7f"
+```
+##### Result:
+```
+5361 6c75 7420 6c65 7320 616e 696e 6368 Salut les aninch
+6573 2063 2765 7374 2063 6f6f 6c20 7368 es c'est cool sh
+6f77 206e 6f6e 206f 6e20 6661 6974 2064 ow non on fait d
+6520 7472 7563 2074 6572 7269 626c 6500 e truc terrible.
+2e00 0102 0304 0506 0708 090e 0f1b 7f ...............
+```
+
+#### Allowed functions
+
+```
+putchar
+```
+
+#### Related files
+
+```
+vc_print_memory.c
+```
+<br>
 <br>
 <br>
 <br>
